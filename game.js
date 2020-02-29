@@ -38,7 +38,7 @@ function addPlatforms() {
   platforms.create(522, 580, 'platform2');
   platforms.create(345, 580, 'platform2');
   platforms.create(620, 580, 'platform2');
-  platforms.create(130, 300, 'platform');
+  platforms.create(0, 300, 'platform');
   platforms.create(650, 300, 'platform');
   platforms.create(550, 200, 'platform');
   platforms.create(300, 450, 'platform');
