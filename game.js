@@ -72,7 +72,7 @@ function itemHandler(player, item) {
     alert("YOU LOSE")
   }
   if (item.key === 'badge') {
-    alert("YOU WIN")
+    winningMessage.text = "YOU WIN!!!";
   }
   else if (item.key === 'poison') {
      currentScore = currentScore - 25;
