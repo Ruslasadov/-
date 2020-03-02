@@ -1,4 +1,4 @@
-// alert("Welcome! This is my game. Let's start?")
+alert("Welcome! This is my game. Let's start?")
 // define variables
 var game;
 var player;
