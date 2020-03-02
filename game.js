@@ -12,6 +12,7 @@ var winningMessage;
 var won = false;
 var currentScore = 0;
 var winningScore = 70;
+var loseScore = -1;
 
 // add collectable items to the game
 function addItems() {
@@ -69,10 +70,10 @@ function itemHandler(player, item) {
      currentScore = currentScore + 10;
   }
   if (currentScore <=0) {
-    alert("YOU LOSE")
+    loseMessage.text = "YOU LOSE!!!";
   }
   if (item.key === 'badge') {
-    winningMessage.text = "YOU WIN!!!";
+    
   }
   else if (item.key === 'poison') {
      currentScore = currentScore - 25;
@@ -160,6 +161,9 @@ window.onload = function () {
     // when the player winw the game
     if (won) {
       winningMessage.text = "YOU WIN!!!";
+    }
+    if (lose) {
+      loseMessage.text = "YOU LOSE!!!";
     }
   }
 
