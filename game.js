@@ -23,9 +23,9 @@ function addItems() {
   createItem(525, 300, 'coin');
   createItem(650, 250, 'coin');
   createItem(225, 200, 'coin');
-  // createItem(150, 50, 'poison');
-  // createItem(140,50,'poison');
-  // createItem(130, 50, 'poison');
+  createItem(150, 50, 'poison');
+  createItem(140,50,'poison');
+  createItem(130, 50, 'poison');
   createItem(100, 50, 'star');
   createItem(50, 50, 'badge');
 }
@@ -38,7 +38,7 @@ function addPlatforms() {
   platforms.create(522, 580, 'platform2');
   platforms.create(345, 580, 'platform2');
   platforms.create(620, 580, 'platform2');
-  platforms.create(0, 300, 'platform');
+  platforms.create(100, 300, 'platform');
   platforms.create(650, 300, 'platform');
   platforms.create(550, 200, 'platform');
   platforms.create(300, 450, 'platform');
